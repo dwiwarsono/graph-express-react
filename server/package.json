@@ -4,13 +4,18 @@
   "description": "Learn GraphQL",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "author": "dwi warsono",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1",
     "express-graphql": "^0.12.0",
-    "graphql": "^16.6.0"
+    "graphql": "^16.6.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
